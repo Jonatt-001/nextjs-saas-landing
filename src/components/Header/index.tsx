@@ -8,12 +8,12 @@ import { LuZap } from "react-icons/lu";
 import Link from "next/link";
 
 const words = [
-  "Copywriter",
-  "Assistant",
-  "Marketer",
-  "Developer",
-  "Strategist",
-  "Creator",
+  "Creation",
+  "Automation",
+  "Innovation",
+  "Workflows",
+  "Ideas",
+  "Possibilities",
 ];
 
 const Header = () => {
@@ -49,7 +49,7 @@ const Header = () => {
     >
       <Flex bg={"#ffffff50"} px={4} rounded={"full"} mb={5}>
         <Text color={StargateColors.white} fontSize={"xs"}>
-          Unleash The Power of AI
+          Unlock AI Without Limits
         </Text>
       </Flex>
       <Heading
@@ -62,7 +62,7 @@ const Header = () => {
         lineHeight={1}
         textAlign={"center"}
       >
-        Your Ultimate
+        Where Imagination
       </Heading>
       <AnimatePresence mode="wait">
         <Heading
@@ -79,11 +79,12 @@ const Header = () => {
           animate={{ opacity: 1, filter: "blur(0px)" }}
           exit={{ opacity: 0.2, filter: "blur(4px)" }}
         >
-          {currentWord}
+          Meets {currentWord}
         </Heading>
       </AnimatePresence>
       <Text color={StargateColors.white} maxW={300} textAlign={"center"} mt={5}>
-        Elevating AI: The Ultimate Platform for Intelligent Solutions
+        The AI platform designed for creators, builders and ambitious thinkers.
+        Create. Automate. Launch. All in one place.
       </Text>
       <Button
         leftIcon={<LuZap />}
@@ -106,7 +107,7 @@ const Header = () => {
         transition={"all .25s ease"}
         _hover={{ opacity: 1 }}
       >
-        Discover Stargate
+        Explore What’s Possible
       </Text>
       <HeroBottomSVG />
     </Flex>
