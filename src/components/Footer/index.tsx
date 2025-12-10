@@ -30,9 +30,9 @@ const Footer = () => {
               rounded={"full"}
               mr={1}
             >
-              Stargate
+              Kaali Dev
             </Text>{" "}
-            The only AI tool you will ever need
+            Powering the future of AI-driven creation & automation
           </Text>
         </Flex>
         <Heading
@@ -50,14 +50,13 @@ const Footer = () => {
             WebkitBackgroundClip: "text",
           }}
         >
-          Fork me on GitHub
+          Build Smarter with AI
         </Heading>
 
         <Button
           rightIcon={<LuArrowRight />}
           as={motion.a}
-          href={"https://github.com/kisbalazspatrik/nextjs-saas-landing"}
-          target="_b"
+          href={"#features"}
           whileHover={{ scale: 1.1 }}
           size={"lg"}
           mt={5}
@@ -70,7 +69,7 @@ const Footer = () => {
 
       <Flex mt={32}>
         <Text color={StargateColors.white}>
-          {new Date().getFullYear()} - All rights reserved
+          © {new Date().getFullYear()} Kaali Dev — All rights reserved
         </Text>
       </Flex>
     </Flex>
