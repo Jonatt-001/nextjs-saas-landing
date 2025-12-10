@@ -31,7 +31,7 @@ const Features = () => {
         }}
         textAlign={"center"}
       >
-        Your Favourite AI Tool
+        Everything You Need to Build Smarter
       </Heading>
       <Grid
         templateColumns={{
@@ -88,33 +88,33 @@ const Card = ({ icon, title, children }: CardProps) => (
 const Cards = [
   {
     icon: LuBot,
-    title: "AI Generator",
-    text: "Automate and optimize with our advanced AI technology, designed for efficiency and smarter decision-making.",
+    title: "AI Workflows",
+    text: "Automate creation, decision-making and execution using intelligent agents designed to work the way you do.",
   },
   {
     icon: LuGauge,
-    title: "Dashboard",
-    text: "Monitor performance at a glance with our user-friendly dashboard, your command center for data insights.",
+    title: "Insight Dashboard",
+    text: "Track progress and outcomes with real-time analytics that help you iterate faster and scale confidently.",
   },
   {
     icon: LuCreditCard,
-    title: "Secure Payments",
-    text: "Experience safe and reliable transactions with our robust, encrypted payment system.",
+    title: "Secure Transactions",
+    text: "Built-in payment infrastructure with encryption and global compliance so you can monetize without stress.",
   },
   {
     icon: LuLanguages,
-    title: "Multilang",
-    text: "Reach a global audience with multi-language support, enhancing user experience across borders.",
+    title: "Global Communication",
+    text: "Reach every audience with seamless multilingual support powered by advanced language understanding.",
   },
   {
     icon: LuLayoutTemplate,
-    title: "Ready-to-use templates",
-    text: "Kickstart your project with our versatile, easy-to-customize templates for any use case.",
+    title: "Launch-Ready Templates",
+    text: "Choose from professional templates crafted for speed, quality and flexibility. Customize in minutes.",
   },
   {
     icon: LuLifeBuoy,
-    title: "Support Centre",
-    text: "Get prompt, expert support when you need it. We're here to ensure your seamless experience.",
+    title: "Assisted Support",
+    text: "Help whenever you need it, including AI-assisted onboarding that keeps your ideas moving forward.",
   },
 ];
 
