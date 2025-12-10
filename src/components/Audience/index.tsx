@@ -21,7 +21,7 @@ const Audience = () => {
         textAlign={"center"}
         mb={10}
       >
-        We recommend Stargate for
+        Kaali Dev empowers
       </Heading>
       <Grid
         templateColumns={{
@@ -49,7 +49,7 @@ const Audience = () => {
         textAlign={"center"}
         mt={10}
       >
-        and many others.
+        and anyone building with AI.
       </Heading>
     </Flex>
   );
@@ -99,11 +99,11 @@ const Card = ({ color, children }: CardProps) => {
 
 const Cards = [
   {
-    title: "Digital Agencies",
+    title: "Digital Builders",
     color: "#E6990B",
   },
   {
-    title: "Designers",
+    title: "Designers & Creatives",
     color: "#A431C7",
   },
   {
@@ -115,11 +115,11 @@ const Cards = [
     color: "#348FDA",
   },
   {
-    title: "Students",
+    title: "Students & Learners",
     color: "#41B668",
   },
   {
-    title: "Startups",
+    title: "Startups & Innovators",
     color: "#DA4D8F",
   },
 ];
